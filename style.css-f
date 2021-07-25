@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap");
+
+body {
+  padding: 0;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav .logo a {
+  text-decoration: none;
+  color: rgb(87, 84, 84);
+}
+nav .onglets a {
+  margin-right: 10px;
+  color: #555454;
+  text-decoration: rgb(24, 0, 0);
+}
+nav .onglets a:hover {
+  text-decoration: underline;
+  color: rgb(151, 148, 148);
+}
+
+header {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+  -webkit-box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+  -moz-box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+}
+header h3 {
+  margin-top: -10px;
+}
+header button {
+  background-color: rgb(162, 129, 250);
+  color: rgb(253, 249, 252);
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+header button:hover {
+  background-color: rgb(243, 194, 194);
+  color: black;
+}
+
+.cartes {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartes .carte {
+  border: 3px solid black;
+  max-width: 600px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.cartes .carte h1 {
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.cartes .carte a {
+  text-decoration: none;
+  color: rgb(8, 224, 44);
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(46, 12, 238);
+  padding: 20px;
+  color: rgb(178, 252, 7);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .droite {
+  display: flex;
+}
+footer .droite p {
+  margin-top: 0px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    margin-top: 20px;
+    text-align: left;
+  }
+  nav .logo {
+    margin-bottom: 10px;
+  }
+}

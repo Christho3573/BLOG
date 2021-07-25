@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+body {
+    background-color: rgb(255, 241, 234);
+    margin: 10px 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/* font-family: 'Crimson Text', serif; */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+
+nav .onglets {
+    margin-top: 35px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: #7f7e7e;
+    margin-right: 10px;
+}
+
+.articles {
+    margin-top: 30px;
+}
+
+.articles .article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.articles .article .left img {
+    height: 300px;
+    width: 500px;
+}
+
+div .right a {
+    text-decoration: none;
+    color: rgb(236, 12, 12);
+}
+
+.articles .article .right {
+    max-width: 50%;
+    margin-left: 40px;
+}
+
+.articles .article .right p.date {
+    color: #7f7e7e;
+}
+
+.articles .article .right p.description {
+    color: #2d2d2d
+}
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #494949;
+}
+
+footer h2 {
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+footer .social-media {
+    display: flex;
+}
+
+footer .social-media p {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:640px) {
+    body {
+        margin: 10px 20px;
+    }
+    nav .onglets {
+        margin-top: -10px;
+    }
+    .articles .article .left img {
+        height: 100%;
+        width: 100%;
+    }
+    .articles .article .right {
+        margin: 0;
+        max-width: 100%;
+    }
+    footer .social-media {
+        margin-top: -20%;
+    }
+}
+
+
+/* CSS PAGE FORMATION */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap");
+body {
+    padding: 0;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    font-family: "Raleway", sans-serif;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: rgb(87, 84, 84);
+}
+
+nav .onglets a {
+    margin-right: 10px;
+    color: #555454;
+    text-decoration: rgb(24, 0, 0);
+}
+
+nav .onglets a:hover {
+    text-decoration: underline;
+    color: rgb(151, 148, 148);
+}
+
+header {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+    -webkit-box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+    -moz-box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+}
+
+header h3 {
+    margin-top: -10px;
+}
+
+header button {
+    background-color: rgb(162, 129, 250);
+    color: rgb(253, 249, 252);
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: rgb(243, 194, 194);
+    color: black;
+    text-decoration: none;
+}
+
+.cartes {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px;
+    padding: 10px;
+}
+
+.cartes .carte {
+    border: 3px solid black;
+    max-width: 600px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.cartes .carte h1 {
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: rgb(5, 253, 25);
+}
+
+.cartes .carte a {
+    text-decoration: none;
+    color: rgb(252, 82, 59);
+    font-weight: bold;
+}
+
+
+/* footer {
+        background-color: rgb(206, 198, 252);
+        padding: 2rem;
+        margin-right: 2rem;
+        color: rgb(47, 48, 47);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    } */
+
+footer .droite {
+    display: flex;
+}
+
+footer .droite p {
+    margin-top: 0px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        margin-top: 20px;
+        text-align: left;
+    }
+    nav .logo {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* CSS PAGE MON SITE INTERNET */
